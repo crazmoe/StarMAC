@@ -1,0 +1,11 @@
+# Wöchentliche Updates als Sammel-PR. Cargo und npm kommen dazu, sobald der
+# Code (Cargo.toml, apps/desktop/package.json) im Repo liegt.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]
